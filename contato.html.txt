@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clínica Odontológica Sorriso Prime | Contato</title>
+  <meta name="description" content="Entre em contato com a clínica odontológica e agende sua consulta." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">🦷</span>
+        <span>
+          <strong>Clínica Odontológica Sorriso Prime</strong>
+          <small>Cuidado, estética e saúde bucal</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+
+      <nav class="main-nav">
+        <a href="index.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="especialistas.html">Especialistas</a>
+        <a href="convenios.html">Convênios</a>
+        <a href="local.html">Local</a>
+        <a class="active" href="contato.html">Contato</a>
+      </nav>
+
+      <a href="https://wa.me/5500000000000" class="btn btn-primary">Agendar</a>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="container">
+      <span class="section-tag">Contato</span>
+      <h1 class="page-title">Fale com a clínica</h1>
+      <p class="page-intro">
+        Entre em contato para agendamentos, dúvidas sobre tratamentos ou confirmação de convênios.
+      </p>
+
+      <div class="contact-grid">
+        <article class="card">
+          <h2>Informações</h2>
+          <p><strong>WhatsApp:</strong> (00) 00000-0000</p>
+          <p><strong>Telefone:</strong> (00) 0000-0000</p>
+          <p><strong>E-mail:</strong> contato@clinicassorrisoprime.com.br</p>
+          <p><strong>Instagram:</strong> @clinicassorrisoprime</p>
+          <a href="https://wa.me/5500000000000" class="btn btn-primary">Chamar no WhatsApp</a>
+        </article>
+
+        <article class="card">
+          <h2>Envie sua mensagem</h2>
+          <form class="contact-form">
+            <label for="nome">Nome</label>
+            <input id="nome" type="text" placeholder="Seu nome" />
+
+            <label for="telefone">Telefone</label>
+            <input id="telefone" type="text" placeholder="Seu telefone" />
+
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" rows="5" placeholder="Como podemos ajudar?"></textarea>
+
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Clínica Odontológica Sorriso Prime</strong>
+        <p>Odontologia com técnica, acolhimento e confiança.</p>
+      </div>
+      <div class="footer-links">
+        <a href="sobre.html">Sobre</a>
+        <a href="especialistas.html">Especialistas</a>
+        <a href="convenios.html">Convênios</a>
+        <a href="local.html">Local</a>
+        <a href="contato.html">Contato</a>
+      </div>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/5500000000000">WhatsApp</a>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

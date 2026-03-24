@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clínica Odontológica Sorriso Prime | Início</title>
+  <meta name="description" content="Clínica odontológica com atendimento humanizado, tecnologia e especialistas em diferentes áreas da odontologia." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">🦷</span>
+        <span>
+          <strong>Clínica Odontológica Sorriso Prime</strong>
+          <small>Cuidado, estética e saúde bucal</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+
+      <nav class="main-nav">
+        <a class="active" href="index.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="especialistas.html">Especialistas</a>
+        <a href="convenios.html">Convênios</a>
+        <a href="local.html">Local</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+
+      <a href="https://wa.me/5500000000000" class="btn btn-primary">Agendar</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Odontologia moderna e humanizada</span>
+          <h1>Seu sorriso em boas mãos</h1>
+          <p>
+            Atendimento odontológico com foco em prevenção, estética, conforto e tecnologia.
+            Uma experiência acolhedora para quem busca segurança e excelência.
+          </p>
+          <div class="hero-actions">
+            <a href="https://wa.me/5500000000000" class="btn btn-primary">Agendar consulta</a>
+            <a href="contato.html" class="btn btn-secondary">Falar com a clínica</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <h3>Diferenciais</h3>
+          <ul>
+            <li>Equipe especializada</li>
+            <li>Atendimento humanizado</li>
+            <li>Tecnologia e precisão</li>
+            <li>Ambiente moderno e acolhedor</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust">
+      <div class="container cards-3">
+        <article class="card">
+          <h3>Atendimento especializado</h3>
+          <p>Profissionais qualificados em diferentes áreas da odontologia.</p>
+        </article>
+        <article class="card">
+          <h3>Conforto e acolhimento</h3>
+          <p>Uma experiência pensada para reduzir ansiedade e aumentar segurança.</p>
+        </article>
+        <article class="card">
+          <h3>Tecnologia e cuidado</h3>
+          <p>Tratamentos com mais previsibilidade, conforto e qualidade clínica.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <div>
+          <span class="section-tag">Sobre a clínica</span>
+          <h2>Excelência odontológica com olhar humano</h2>
+          <p>
+            Nossa clínica foi pensada para unir técnica, conforto e atenção individualizada.
+            Cuidamos da saúde bucal com responsabilidade, clareza e foco em resultados duradouros.
+          </p>
+          <a href="sobre.html" class="btn btn-secondary">Conhecer a clínica</a>
+        </div>
+
+        <div class="highlight-box">
+          <h3>Áreas de atendimento</h3>
+          <p>Clínica geral, ortodontia, implantodontia, odontopediatria, estética dental e muito mais.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft">
+      <div class="container">
+        <span class="section-tag">Especialidades</span>
+        <h2>Tratamentos e cuidados odontológicos</h2>
+
+        <div class="cards-3">
+          <article class="card">
+            <h3>Clínica geral</h3>
+            <p>Prevenção, limpeza, avaliação, restaurações e acompanhamento contínuo.</p>
+          </article>
+          <article class="card">
+            <h3>Ortodontia</h3>
+            <p>Correção do posicionamento dentário com planejamento individualizado.</p>
+          </article>
+          <article class="card">
+            <h3>Implantodontia</h3>
+            <p>Reabilitação oral com foco funcional, estético e segurança clínica.</p>
+          </article>
+        </div>
+
+        <div class="section-cta">
+          <a href="especialistas.html" class="btn btn-primary">Ver especialistas</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <span class="section-tag">Como funciona</span>
+        <h2>Um processo simples e acolhedor</h2>
+
+        <div class="cards-3 steps">
+          <article class="card">
+            <strong>1</strong>
+            <h3>Primeiro contato</h3>
+            <p>Você entra em contato pelo WhatsApp para receber orientações e disponibilidade.</p>
+          </article>
+          <article class="card">
+            <strong>2</strong>
+            <h3>Avaliação</h3>
+            <p>Entendemos sua necessidade e indicamos o tratamento ou especialista ideal.</p>
+          </article>
+          <article class="card">
+            <strong>3</strong>
+            <h3>Atendimento</h3>
+            <p>Seu cuidado começa com planejamento, clareza e acompanhamento profissional.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-band">
+      <div class="container split">
+        <div>
+          <h2>Pronto para cuidar do seu sorriso?</h2>
+          <p>Fale com nossa equipe e agende sua consulta de forma rápida.</p>
+        </div>
+        <div class="cta-actions">
+          <a href="https://wa.me/5500000000000" class="btn btn-primary">Agendar pelo WhatsApp</a>
+          <a href="contato.html" class="btn btn-secondary">Entrar em contato</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Clínica Odontológica Sorriso Prime</strong>
+        <p>Odontologia com técnica, acolhimento e confiança.</p>
+      </div>
+      <div class="footer-links">
+        <a href="sobre.html">Sobre</a>
+        <a href="especialistas.html">Especialistas</a>
+        <a href="convenios.html">Convênios</a>
+        <a href="local.html">Local</a>
+        <a href="contato.html">Contato</a>
+      </div>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/5500000000000" aria-label="WhatsApp">WhatsApp</a>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clínica Odontológica Sorriso Prime | Sobre</title>
+  <meta name="description" content="Conheça a história, missão, visão e valores da Clínica Odontológica Sorriso Prime." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">🦷</span>
+        <span>
+          <strong>Clínica Odontológica Sorriso Prime</strong>
+          <small>Cuidado, estética e saúde bucal</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+
+      <nav class="main-nav">
+        <a href="index.html">Início</a>
+        <a class="active" href="sobre.html">Sobre</a>
+        <a href="especialistas.html">Especialistas</a>
+        <a href="convenios.html">Convênios</a>
+        <a href="local.html">Local</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+
+      <a href="https://wa.me/5500000000000" class="btn btn-primary">Agendar</a>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="container">
+      <span class="section-tag">Sobre</span>
+      <h1 class="page-title">Conheça nossa clínica</h1>
+      <p class="page-intro">
+        Unimos conhecimento técnico, cuidado humanizado e estrutura moderna para oferecer
+        uma experiência odontológica mais tranquila, segura e eficiente.
+      </p>
+
+      <div class="content-grid">
+        <article class="card">
+          <h2>Nossa história</h2>
+          <p>
+            A Clínica Odontológica Sorriso Prime nasceu com o propósito de oferecer
+            um cuidado completo em saúde bucal, com foco em atendimento ético,
+            acolhedor e baseado em excelência clínica.
+          </p>
+        </article>
+
+        <article class="card">
+          <h2>Missão</h2>
+          <p>
+            Promover saúde bucal e bem-estar por meio de tratamentos odontológicos
+            de qualidade, com atenção individualizada e compromisso com cada paciente.
+          </p>
+        </article>
+
+        <article class="card">
+          <h2>Visão</h2>
+          <p>
+            Ser referência em odontologia humanizada, tecnológica e confiável,
+            proporcionando uma experiência positiva em cada atendimento.
+          </p>
+        </article>
+
+        <article class="card">
+          <h2>Valores</h2>
+          <ul>
+            <li>Ética profissional</li>
+            <li>Respeito ao paciente</li>
+            <li>Excelência clínica</li>
+            <li>Acolhimento</li>
+            <li>Transparência</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Clínica Odontológica Sorriso Prime</strong>
+        <p>Odontologia com técnica, acolhimento e confiança.</p>
+      </div>
+      <div class="footer-links">
+        <a href="sobre.html">Sobre</a>
+        <a href="especialistas.html">Especialistas</a>
+        <a href="convenios.html">Convênios</a>
+        <a href="local.html">Local</a>
+        <a href="contato.html">Contato</a>
+      </div>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/5500000000000">WhatsApp</a>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
